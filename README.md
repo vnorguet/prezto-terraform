@@ -1,6 +1,6 @@
 # prezto-terraform
 
-Handy module for Terraform
+Add completion and aliases for Terraform
 
 ## Features
 
@@ -9,9 +9,8 @@ Handy module for Terraform
 
 ## Setup
 
-1. Clone this repository
-2. Add to `${ZDOTDIR:-$HOME}"/.zprezto/contrib`
-3. Enable into `~/.zpreztorc`
+1. Clone this repository in `contrib` folder `git clone https://github.com/vnorguet/prezto-terraform.git ${ZDOTDIR:-$HOME}"/.zprezto/contrib/terraform`
+2. Enable into `~/.zpreztorc`
 
     ```shell
     zstyle ':prezto:load' pmodule \
@@ -19,4 +18,4 @@ Handy module for Terraform
       terraform
     ```
 
-4. Reload your shell
+3. Reload your shell
